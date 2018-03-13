@@ -9,7 +9,6 @@ if (!is_null($events['ESP'])) {
 	
 	send_LINE($events['ESP']);
 		
-	echo "OK";
 	}
 // Validate parsed JSON data
 if (!is_null($events['events'])) {	
